@@ -241,3 +241,26 @@ img {
   height: auto;
   object-fit: contain;
 }
+
+/* Ajustes para pantallas pequeñas (celular) */
+@media (max-width: 600px) {
+  body {
+    font-size: 16px; /* tamaño base cómodo */
+    line-height: 1.5;
+  }
+
+  h1 {
+    font-size: 1.8rem; /* título principal más grande */
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  /* Ajusta el menú superior si lo necesitas */
+  nav button,
+  nav a {
+    font-size: 0.95rem;   /* un poquito más grande que antes */
+    padding: 0.4rem 0.6rem;
+  }
+}
