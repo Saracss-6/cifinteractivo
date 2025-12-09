@@ -245,40 +245,39 @@ img {
 /* Ajustes para pantallas pequeñas (celular) */
 @media (max-width: 600px) {
   body {
-    font-size: 16px; /* tamaño base cómodo */
+    font-size: 16px;
     line-height: 1.5;
   }
 
   h1 {
-    font-size: 1.8rem; /* título principal más grande */
+    font-size: 1.8rem; 
   }
 
   h2 {
     font-size: 1.4rem;
   }
 
-  /* Ajusta el menú superior si lo necesitas */
+
   nav button,
   nav a {
-    font-size: 0.95rem;   /* un poquito más grande que antes */
+    font-size: 0.95rem;   
     padding: 0.4rem 0.6rem;
   }
 }
 
-/* --- Menú superior responsive --- */
+/* --- Menú superior en celulares--- */
 @media (max-width: 768px) {
 
-  /* Contenedor del menú (cambia #menu-superior por lo que tengas) */
   #menu-superior {
     display: flex;
-    flex-wrap: nowrap;           /* no romper en varias filas */
-    overflow-x: auto;            /* permitir scroll horizontal */
-    -webkit-overflow-scrolling: touch; /* scroll suave en iPhone */
-    gap: 0.5rem;                 /* espacio entre botones */
+    flex-wrap: nowrap;           
+    overflow-x: auto;            
+    -webkit-overflow-scrolling: touch; 
+    gap: 0.5rem;                 
   }
 
   /* Botones del menú */
   #menu-superior button {
-    flex: 0 0 auto;              /* que no se estiren ni se corten */
+    flex: 0 0 auto;              
   }
 }
