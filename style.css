@@ -264,3 +264,21 @@ img {
     padding: 0.4rem 0.6rem;
   }
 }
+
+/* --- Menú superior responsive --- */
+@media (max-width: 768px) {
+
+  /* Contenedor del menú (cambia #menu-superior por lo que tengas) */
+  #menu-superior {
+    display: flex;
+    flex-wrap: nowrap;           /* no romper en varias filas */
+    overflow-x: auto;            /* permitir scroll horizontal */
+    -webkit-overflow-scrolling: touch; /* scroll suave en iPhone */
+    gap: 0.5rem;                 /* espacio entre botones */
+  }
+
+  /* Botones del menú */
+  #menu-superior button {
+    flex: 0 0 auto;              /* que no se estiren ni se corten */
+  }
+}
